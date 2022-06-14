@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin-Login</title>
+    <script src="./Assets/javascripts/view/login.js"></script>
+    <link rel="stylesheet" href="./Assets/stylesheets/admin_login.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Login Form</h1>
+    <div>
+      <table>
+        <tr>
+          <td>Enter Email :</td>
+          <td>
+            <input type="email" placeholder="Enter Email ID" id="email" />
+          </td>
+        </tr>
+        <tr>
+          <td>Enter Password :</td>
+          <td>
+            <input type="password" placeholder="Enter Password" id="pwd" />
+          </td>
+        </tr>
+      </table>
+      <button id="submit" onClick="submit()" class="">Login</button>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

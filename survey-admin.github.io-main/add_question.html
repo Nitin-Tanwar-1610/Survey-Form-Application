@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>add question</title>
+    <link rel="stylesheet" href="./Assets/stylesheets/add_question.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script type="module" src="./Assets/javascripts/view/add_questions.js"></script>
+  </head>
+  <body>
+    <div class="form-style-5">
+      <legend><span class="number">1</span> Question Type</legend>
+      <input type="text" id="typ" name="field1" placeholder="Question Type" />
+      <legend><span class="number">2</span> Question Deion</legend>
+      <input
+        type="email"
+        id="question"
+        name="field2"
+        placeholder="Question Description"
+      />
+
+      <legend><span class="number">3</span> Options</legend>
+
+      <input id="opt1" name="field2" placeholder="Option 1" />
+      <input id="opt2" name="field2" placeholder="Option 2" />
+      <input id="opt3" name="field2" placeholder="Option 3" />
+      <input id="opt4" name="field2" placeholder="Option 4" />
+
+      <input type="submit" id="add" value="Add" />
+      <input type="submit" id="read" value="View Result" />
+      <div id="link"></div>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

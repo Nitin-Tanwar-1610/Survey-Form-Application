@@ -1,0 +1,40 @@
+body{
+    background-size: cover;
+    color: white;
+    font-family: 'Acme', sans-serif;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dce3647b-6179-463c-b4c8-bd642f5bb216/da4f4gg-be1f2697-69ac-4569-9c34-ac77393df366.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZGNlMzY0N2ItNjE3OS00NjNjLWI0YzgtYmQ2NDJmNWJiMjE2XC9kYTRmNGdnLWJlMWYyNjk3LTY5YWMtNDU2OS05YzM0LWFjNzczOTNkZjM2Ni5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.Hhw0NTe0BqEbXc9bdfhvlHO07vyGxmm14QR_ttswV74");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 55px;
+}
+table{
+    height: 150px;
+    width: 400px;
+    font-size: 20px;
+
+}
+input{
+    height: 30px;
+    width: 220px;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 40px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
